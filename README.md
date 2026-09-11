@@ -1,2 +1,2 @@
-# Proyecto-Consumo-energético-de-edificio
+# Proyecto - Consumo energético de edificio
 Modelo de regresión temporal para predecir el consumo energético de electrodomésticos en función de variables ambientales y climáticas.

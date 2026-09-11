@@ -31,16 +31,24 @@ Consumo energético
 
 El proyecto se desarrollará mediante las siguientes etapas:
 
-1. Carga y diagnóstico de los datos.
-2. Limpieza y preparación de los datos.
-3. Análisis exploratorio de datos (EDA).
-4. Ingeniería y selección de características.
-5. División de los datos en entrenamiento y prueba.
-6. Construcción de una línea base.
-7. Entrenamiento de modelos de regresión.
-8. Evaluación mediante métricas.
-9. Análisis de errores y residuos.
-10. Comparación de resultados.
+1. Script y carga del dataset
+2. Diagnóstico de los datos
+3. Diccionario de variables
+4. Análisis exploratorio de datos (EDA)
+5. Visualizaciones
+6. Definición de X e y
+7. Ordenamiento temporal de los datos
+8. Partición temporal: entrenamiento y prueba
+9. Construcción de la línea base temporal
+10. Métricas de la línea base
+11. Modelo simple: regresión lineal
+12. Predicciones del modelo
+13. Métricas del modelo
+14. Comparación: línea base vs. regresión lineal
+15. Cálculo de residuos
+16. Análisis y gráficas de residuos
+17. Revisión de posibles fugas de información
+18. Conclusiones
 
 ## Diccionario de variables
 
@@ -75,3 +83,22 @@ Modelo de regresión lineal, debido a que permite evaluar si las variables predi
 explicar el consumo energético de los electrodomésticos.
 La línea base tenía un MAE de aproximadamente 52.68, por lo que el error absoluto promedio disminuyó ligeramente. En cuanto a la regresión Lineal consigue reducir, en cierta medida, los errores grandes que tenía la línea base. 
 Por lo tanto, el modelo presenta una primera mejora respecto a la línea base, pero su desempeño todavía es modesto. Hay outliers importantes y se indica heterocedasticidad o falta de linealidad.
+
+# Conclusiones
+La regresión lineal permite establecer un primer modelo para predecir Appliances.
+Se compara su desempeño contra la línea base temporal.
+Las métricas principales son MAE, RMSE y R².
+El análisis de residuos permite identificar errores sistemáticos y dificultades del modelo.
+El modelo puede presentar dificultades para representar los picos de consumo, por lo que existe margen de mejora.
+# Posibles soluciones
+Utilizar modelos capaces de capturar relaciones no lineales.
+
+# Mejoras del modelo
+Comparar varios algoritmos.
+Ajustar hiperparámetros.
+Utilizar validación temporal.
+Analizar y tratar valores atípicos.
+Evaluar transformaciones de variables.
+Mejorar la representación de la temporalidad.
+Comparar nuevamente los modelos mediante MAE, RMSE y R².
+Revisar nuevamente los residuos después de cada mejora.

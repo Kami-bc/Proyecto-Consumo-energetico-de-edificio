@@ -7,7 +7,9 @@
 ## Fecha de entrega
 11 de Septiembre del 2026.
 
-# Estructura del proyecto 
+## Estructura del proyecto
+
+```text
 Proyecto-Consumo-energetico-de-edificio/
 │
 ├── .gitignore

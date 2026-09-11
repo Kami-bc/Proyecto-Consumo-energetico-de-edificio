@@ -28,3 +28,16 @@ El proyecto se desarrollará mediante las siguientes etapas:
 8. Evaluación mediante métricas.
 9. Análisis de errores y residuos.
 10. Comparación de resultados.
+
+## Diccionario de variables
+
+El conjunto de datos contiene 19.735 registros y 29 variables. 
+La variable objetivo del proyecto es el consumo energético de los electrodomésticos.
+
+La variable `date` corresponde al registro temporal de cada medición, 
+mientras que las demás variables contienen información relacionada con el consumo de iluminación, temperatura, humedad y condiciones 
+ambientales.
+
+Para el modelo de regresión, `Appliances` se utilizará como variable 
+objetivo, mientras que las variables ambientales y de consumo 
+disponibles se utilizarán como variables predictoras (X).

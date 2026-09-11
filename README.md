@@ -42,5 +42,15 @@ Para el modelo de regresión, `Appliances` se utilizará como variable
 objetivo, mientras que las variables ambientales y de consumo 
 disponibles se utilizarán como variables predictoras (X).
 
-#Resultados
+# Resultados
 La temperatura exterior por sí sola no parece explicar completamente el consumo energético de los electrodomésticos.
+
+# partición de datos
+Se realizó una partición temporal de los datos utilizando el 80 % de las
+observaciones para entrenamiento y el 20 % restante para prueba debido a que los registros poseen fechas.
+
+# Línea base
+MAE → qué tan grande es el error promedio.
+RMSE → mide el error y penaliza más los errores grandes.
+R² → qué tan bien explica el modelo la variación del consumo.
+" 

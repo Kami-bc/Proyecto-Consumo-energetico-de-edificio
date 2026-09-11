@@ -10,7 +10,7 @@
 ## Estructura del proyecto
 
 ```text
-Proyecto-Consumo-energetico-de-edificio/
+Proyecto/
 │
 ├── .gitignore
 ├── README.md

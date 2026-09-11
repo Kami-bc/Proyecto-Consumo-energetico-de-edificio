@@ -51,6 +51,14 @@ observaciones para entrenamiento y el 20 % restante para prueba debido a que los
 
 # Línea base
 MAE → qué tan grande es el error promedio.
+
 RMSE → mide el error y penaliza más los errores grandes.
+
 R² → qué tan bien explica el modelo la variación del consumo.
 " 
+#Primer modelo
+
+Modelo de regresión lineal, debido a que permite evaluar si las variables predictoras contienen información útil para 
+explicar el consumo energético de los electrodomésticos.
+La línea base tenía un MAE de aproximadamente 52.68, por lo que el error absoluto promedio disminuyó ligeramente. En cuanto a la regresión Lineal consigue reducir, en cierta medida, los errores grandes que tenía la línea base. 
+Por lo tanto, el modelo presenta una primera mejora respecto a la línea base, pero su desempeño todavía es modesto. Hay outliers importantes y se indica heterocedasticidad o falta de linealidad.

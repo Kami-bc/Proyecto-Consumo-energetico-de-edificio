@@ -41,3 +41,6 @@ ambientales.
 Para el modelo de regresión, `Appliances` se utilizará como variable 
 objetivo, mientras que las variables ambientales y de consumo 
 disponibles se utilizarán como variables predictoras (X).
+
+#Resultados
+La temperatura exterior por sí sola no parece explicar completamente el consumo energético de los electrodomésticos.
